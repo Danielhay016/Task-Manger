@@ -1,0 +1,53 @@
+/*Put the text box in the middle along with the title | div class = container*/
+.container {
+    text-align: center;
+    background-color: #adc4f6;
+  }
+/*Handles the size of the text box*/
+  input[type="text"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+  }
+/*Adding color to a text box while touching it*/
+  input[type=text]:focus {
+    background-color: #fbfafa;
+  }
+/*Size defined for each button*/
+  button {
+    padding: 12px 20px;
+    margin-bottom: 10px;
+  }
+/*Coloring the tasks and centering them in the middle of the screen*/
+.list{
+    text-align: center ;
+    background-color: hsl(28, 92%, 74%); 
+}
+/*Numbering the records using English letters*/
+ul {
+    list-style-type: upper-alpha;  
+ }
+/*Designing the structure of the tasks*/
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: hsl(28, 100%, 88%);
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*The X button*/
+.close {
+    position: left ;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+ 
